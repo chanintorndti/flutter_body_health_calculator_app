@@ -10,6 +10,10 @@ class BmiUi extends StatefulWidget {
 class _BmiUiState extends State<BmiUi> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Center(
+        child: Text('BMI'),
+      ),
+    );
   }
 }

@@ -10,6 +10,10 @@ class AboutUi extends StatefulWidget {
 class _AboutUiState extends State<AboutUi> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Center(
+        child: Text('About'),
+      ),
+    );
   }
 }
